@@ -4,5 +4,47 @@ input {
 }
 
 header h1 {
-    color: white;
+    color: rgb(173, 165, 165)17, 202, 202;
+}
+
+
+.btn {
+    margin: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+
+.search-box {
+    margin: 20px;
+}
+
+.card {
+    margin: 20px;
+    padding: 10px;
+}
+
+.future-day {
+    background-color: rgba(42, 42, 207, 0.919);
+}
+
+.future-day p, h4 {
+    color: aliceblue;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+}
+
+.futureIcon {
+    height: 50px;
+    width: 50px;
+}
+
+.current-day {
+    background-color: rgb(220, 228, 236);
 }

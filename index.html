@@ -12,7 +12,17 @@
     <header>
         <h1>Weather Dashboard</h1>
     </header>
-
+    <main class="row">
+        <div class="col-12 col-md-3">
+          <div class="search-box">
+            <h3>Search City:</h3>
+            <input name="city" id="city" type="text" autofocus="true" class="col-12 form-input" />
+            <button type="button" class="col-12 btn btn-primary">Search</button>
+            <div id="search-history" class="col-12"></div>
+          </div>
+        </div>
+        <div id="weather-container" class="col-12 col-md-9"></div>
+    </main>
 </body>
 <script src="./asset/index.js"></script>
 </html>
