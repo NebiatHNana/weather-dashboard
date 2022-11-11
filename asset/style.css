@@ -3,11 +3,6 @@ input {
     height: 40px;
 }
 
-header h1 {
-    color: rgb(173, 165, 165)17, 202, 202;
-}
-
-
 .btn {
     margin: 10px;
 }
@@ -15,7 +10,11 @@ header h1 {
 header {
     display: flex;
     justify-content: center;
-    background-color: rgb(182, 158, 52);
+    background-color: blue;
+}
+
+header h1 {
+    color: white;
 }
 
 .search-box {
@@ -28,7 +27,7 @@ header {
 }
 
 .future-day {
-    background-color: rgba(139, 139, 169, 0.919);
+    background-color: rgba(70, 70, 103, 0.919);
 }
 
 .future-day p, h4 {
@@ -46,5 +45,5 @@ header {
 }
 
 .current-day {
-    background-color: rgb(220, 228, 236);
+    background-color: aliceblue;
 }

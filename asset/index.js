@@ -35,10 +35,11 @@ var getCityWeather = function (lat, lon, name) {
         displayWeather(data.current, data.daily, name);
       });
     } else {
-      alert("We can't to find this City");
+      alert("unable to find this City");
     }
   });
 };
+
 var displayWeather = function (currentWeather, dailyWeather, city) {
   weatherContainer.innerHTML = "";
 
@@ -67,7 +68,7 @@ var displayWeather = function (currentWeather, dailyWeather, city) {
   );
 
   var forecastHeading = document.createElement("h3");
-  forecastHeading.textContent = "Five Day Forecast";
+  forecastHeading.textContent = "5 Day Forecast";
 
   var temp = document.createElement("p");
   temp.textContent = "Temperature: " + currentWeather.temp + "C";
@@ -153,7 +154,7 @@ var searchHandler = function (event) {
     saveCity(city);
     cityInputEl.value = "";
   } else {
-    alert("Please insert a City to view that City's weather");
+    alert("Please enter a City to view that City's weather");
   }
 };
 
